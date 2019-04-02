@@ -3488,13 +3488,14 @@ input, select, textarea {
 
 .iframe-container {
   overflow: hidden;
-  padding-top: 56.25%;
+  padding-top: 0;
+  padding-bottom: 65%;
   position: relative;
 } 
 
 .iframe-container-iframe {
   position: absolute;
-  top: 0;
+  top: 1;
   left: 0;
   border: 0;
   width: 100%;
